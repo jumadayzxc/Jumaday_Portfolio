@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    background-color: rgb(46, 42, 42);
+    border: 3px solid yellow;
+}
+ul{
+    display: flex;
+    color: white;
+    border: 3px solid blue;
+} 
+li{
+    width: 200px;
+    list-style-type: none ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.logo{
+    margin-left: 50px;
+    color: white;
+    border: 3px solid rgb(92, 92, 100);
+}
+.navi{
+    margin-right: 30px;
+}
+section{
+    height: 120vh;
+    background-image: url(sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    border: 3px solid red;
+}
+.batman{
+    height:90%;
+    width: 90%;
+    align-content: flex-end;
+}
+.title{
+    color: white;
+    font-size: 70px;
+    margin-left: 127px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+..superman{
+    height:50%;
+    width: 50%;
+    align-content: flex-end;
+}
+.title1{
+    color: white;
+    font-size: 70px;
+    margin-left: 65px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.ultraman{
+    height:50%;
+    width: 50%;
+    align-content: flex-end;
+}
+.title2{
+    color: white;
+    font-size: 70px;
+    margin-left: 134px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
