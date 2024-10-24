@@ -34,50 +34,51 @@ li{
 .navi{
     margin-right: 30px;
 }
-section{
-    height: 120vh;
+.home{
+    height: 100vh;
+    width: 100vw;
     background-image: url(sunset.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 10px;
     border: 3px solid red;
 }
-.batman{
-    height:90%;
-    width: 90%;
-    align-content: flex-end;
-}
-.title{
-    color: white;
-    font-size: 70px;
-    margin-left: 127px;
-    font-family: sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-..superman{
-    height:50%;
-    width: 50%;
-    align-content: flex-end;
-}
-.title1{
-    color: white;
-    font-size: 70px;
-    margin-left: 65px;
-    font-family: sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
 .ultraman{
-    height:50%;
+    height: 88%;
     width: 50%;
-    align-content: flex-end;
+    border: blue solid 2px;
+    display: flex;
+    align-items: end;
+    margin-left: 30px;
 }
-.title2{
+.batman{
     color: white;
-    font-size: 70px;
-    margin-left: 134px;
-    font-family: sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-size: 65px;
+    align-content: flex-end;
+    justify-content: flex-end;
+    border: 3px solid white;
+}
+.w{
+    margin-left: 57px;
+}
+.b{
+    margin-left: 65px;
+}
+.about{
+    background-color: rgb(46, 42, 42);
+    height: 100vh;
+    width: 100vw;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+    color: white;
+}
+.header p{
+    margin-top: 20px;
+}
+.desc p{
+    display: flex;
+    justify-content: center;
+    color: white;
 }
